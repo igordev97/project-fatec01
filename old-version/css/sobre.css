@@ -1,0 +1,40 @@
+img.profissional {
+    width: 100%;
+    height: 400px
+}
+
+.text-description p {
+    text-align: center;
+    margin: 40px auto 0;
+}
+
+.box-people-container {
+    margin-bottom: 90px;
+}
+
+.box-people {
+    width: 100%;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.box-people img {
+    width: 90px;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.box-people p {
+    margin-top: -62px;
+    width: 80%;
+    padding-left: 9%;
+}
+
+.box-msg a {
+    top: auto !important;
+    height: auto !important;
+}
+
+footer {
+    margin-top: 3%;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lan="pt-BR">
+
+<head>
+    <meta charset="Utf-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/contato.css">
+    <!--linkando css-->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald');
+        /*fonte importada do google*/
+    </style>
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <!--Cabeçalho-->
+        <h1><a href="index.html"><img src="img/logo.png" alt="Logo" class="imagem"></a></h1>
+        <!--Logo-->
+        <nav>
+            <ul>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="#">Pontos Turisticos</a>
+                    <ul>
+                        <!--Submenu-->
+                        <li><a href="saopaulo.html">São Paulo</a></li>
+                        <li><a href="minasgerais.html">Minas Gerais</a></li>
+                        <li><a href="riodejaneiro.html">Rio de Janeiro</a></li>
+                    </ul>
+                    <!--/fimSubmenu-->
+                </li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+        <!--FIM DO MENU-->
+    </header>
+    <section>
+        <h2 class="title-page">Contato</h2>
+
+        <div class="container-form">
+            <div>
+                <div>
+                    <form>
+                        <label for="nome">Nome:</label>
+                        <input type="text" placeholder="Nome" id="nome">
+
+                        <label for="email">Email:</label>
+                        <input type="text" placeholder="Email" id="email">
+
+                        <label for="assunto">Assunto da Mensagem:</label>
+                        <input type="text" placeholder="Assunto" id="assunto">
+
+                        <label for="mensagem">Mesagem:</label>
+                        <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+
+                <div>
+                    <p><b>Email:</b> yourturism@contato.com</p>
+                    <p><b>Tell:</b> 11 912345678</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="clear-float">
+        <h4><a href="img/validacaocontato.PNG" target="_blank">Clique aqui para baixar a validação.</a></h4>
+    </section>
+    <section>
+        <h4><a href="wire-fluxograma/wireflux.pdf" target="_blank">Clique aqui para baixar o Wireframe e fluxograma.</a></h4>
+    </section>
+
+    <footer>
+        <p class="empresa">&copy; Your Turism<time datetime="2017-03-31 10>00"></time></p>
+    </footer>
+</body>
+
+</html>
