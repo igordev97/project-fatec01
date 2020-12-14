@@ -130,3 +130,8 @@
 .authentication-main-cadastrar .box-authentication-password > div {
     width: calc(100% / 2 - 10px);
 }
+
+button[type="submit"] a {
+    display: block;
+    width: 100%;
+}
